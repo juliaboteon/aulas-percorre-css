@@ -1,0 +1,22 @@
+body{
+    background-color: aliceblue;
+    background-image: url(./fundo2.png);
+    background-repeat: no-repeat;
+}
+img{
+    width: 350px;
+    /* filter: drop-shadow(6px 6px 6px #ff010180); se tirarmos o background */ 
+    background-image: url(./fundo2.png);
+}
+figure{
+    text-align: center;
+    margin: 0 auto;
+    width: 350px;
+}
+figcaption{
+    font-size: 32px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(230, 9, 9);
+    text-shadow: 2px 2px 2px #cfcdcd;
+}
+
