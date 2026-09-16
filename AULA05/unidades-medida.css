@@ -1,0 +1,46 @@
+*{
+    margin: 10px;
+    font-size: 62.5%;
+}
+
+.box1{
+    font-size: 1.5px;
+}
+.box2{
+    font-size: 1.5rem;
+}
+ol{
+    font-size: 2em;
+    list-style: none;
+}
+li{
+    font-size: 2em;
+}
+p{
+    font-size: 2rem;
+}
+article{
+    padding: 100px;
+    background-color: crimson;
+    height: 50vh;
+    width: 50vw;
+}
+section{
+    background-color: yellow;
+    height: 100vh;
+}
+
+.box3{
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height: 300px;
+    background-color: violet;
+}
+.box4{
+    height: 300px;
+    width: 50%;
+    background-color:cyan;
+    padding: 0;
+    margin: 0;
+}
