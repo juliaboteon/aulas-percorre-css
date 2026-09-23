@@ -1,0 +1,24 @@
+:root{
+    
+    /* camelCase : nomeVariavel */
+    /* PascalCase: NomeVariavel  */
+    /* snake_case: nome_varivale */
+    /* kebab-case: case-variavel */
+    /* SCREAMING-KEBAB-CASE: CASE-VARIAVEL */
+    /* SCREAMING_KEBAB_CASE: CASE_VARIAVEL */
+
+    --cor-primaria: rgb(164, 171, 235);
+    --cor-secundaria: rgb(116, 4, 4); 
+    --cor-texto: rgb(179, 86, 174);
+    --cor-de-fundo: rgb(26, 131, 61);
+}
+
+h1{
+    color: var(--cor-primaria);
+}
+p{
+    background-color: var(--cor-texto);
+}
+h2{
+    color: var(--cor-secundaria);
+}

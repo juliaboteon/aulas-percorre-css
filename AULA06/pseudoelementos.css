@@ -1,0 +1,11 @@
+.primeiro::after{
+    content: " - Turma 01";
+}
+.primeiro::before{
+    content: "Professor ";
+}
+.segundo::first-letter{
+    font-size: 50px;
+    color: rgb(253, 25, 25);
+    font-weight: 600;
+}

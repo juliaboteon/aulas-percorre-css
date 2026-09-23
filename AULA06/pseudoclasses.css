@@ -1,0 +1,32 @@
+input:focus{
+    background-color: yellowgreen;
+    color: blue;
+}
+
+a:visited{ /* cor do link depois de visitado */
+    color: rgb(21, 255, 0);
+}
+a:active{ /* link quando clicamos nele */
+    color: rgb(255, 0, 200);
+}
+a:link{ /* link nao visitado fica nessa cor */
+    color: rgb(241, 139, 21);
+}
+
+div{
+    background-color: rgb(255, 169, 169);
+    color: rgb(126, 12, 231);
+    height: 50px;
+    width: 50px;
+    padding: 25%;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.box:hover{
+    background-color: rgb(175, 21, 21);
+    color: olive;
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    
+}
