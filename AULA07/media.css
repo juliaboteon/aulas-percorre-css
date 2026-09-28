@@ -1,0 +1,51 @@
+  @media screen and (max-width: 400px){
+    .nome1{
+        color:rgb(238, 66, 66);
+        font-size: 30px;
+        text-align: center;
+    }  
+  }
+
+  @media print and (max-width: 800px){
+    .nome2{
+        color:rgb(45, 214, 67);
+        font-size: 50px;
+        text-align: right;
+    }
+  }
+
+  @media (max-width: 600px){
+    .nome3{
+        color: rgb(112, 46, 187);
+        font-size: 50px;
+        text-align: right;
+    }
+  }
+
+  @media (min-width: 700px){
+    .nome4{
+        color: cadetblue;
+        text-align: center;
+        background-color: rgb(255, 235, 185);
+    }
+  }
+
+  @media (orientation:landscape){
+    body{
+        background-color: black;
+        color: wheat;
+    }
+    .nome5{
+        color: greenyellow;
+        text-align: center;
+    }
+  }
+
+  @media (min-width:750px) and (max-width:780px){
+    .nome6{
+        color: pink;
+        font-weight: 900;
+        text-align: center;
+        font-size: 30px;
+    }
+  }
