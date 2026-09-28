@@ -1,0 +1,86 @@
+.container {
+    height: 400px;
+    width: 700px;
+    background-color: rgb(207, 199, 199);
+    border: 2px solid blue;
+
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap-reverse; */
+    
+    /* direction: rtl; */
+    /* direction: ltr; */
+    
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    
+    /* justify-content: ; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: center;
+     /* justify-content: end; ajusta na horizontal */
+
+    /* align-items:flex-end; ajusta na vertical */
+    align-items: center;
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+
+    /* justify-content: end;
+    align-items: start; */
+} 
+
+.box {
+    color: white;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+
+.box1 {
+    background-color: red;
+    /* order: 5; */
+    flex-grow: 2;
+}
+
+.box2 {
+    background-color: green;
+    /* order: 8; */
+    flex-grow: 3;
+    align-self: end;
+
+}
+
+.box3 {
+    background-color: blue;
+    /* line-height: 400%; */
+    /* order: 6; */
+}
+
+.box4{
+    background-color: rgb(199, 47, 47);
+    /* order: 1; */
+}
+
+.box5{
+    background-color: yellowgreen;
+    /* order: 7; */
+}
+
+.box6{
+    background-color: black;
+    /* order: 4; */
+}
+.box7{
+    background-color: pink;
+    /* order: 3; */
+}
+
+.box8{
+    background-color: purple;
+    /* order: 2; */
+}
