@@ -1,0 +1,47 @@
+.container{
+    display:grid;
+    height: 100vh;
+    margin: 0px;
+    background-color: bisque;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "c c c c c c" "o o l l l l"
+    "o o l l l l"
+    "b b b b p p"
+    "b b b b p p"
+    "d d d d d d"; 
+    /* c = ciano/cyan
+    o = laranja/orange
+    l = azul claro/ light blue
+    b = preto/ black
+    p = roxo/purple
+    d = azul escuro dark blue */
+    gap: 10px;
+    text-align: center;
+}
+
+.box1{
+    background-color: rgb(100, 151, 228);
+    grid-area: c;
+}
+
+.box2{
+    background-color: orangered;
+    grid-area: o;
+}
+.box3{
+    background-color: lightblue;
+    grid-area: l;
+}
+.box4{
+    background-color: black;
+    grid-area: b;
+}
+.box5{
+    background-color: purple;
+    grid-area: p;
+}
+.box6{
+    background-color: darkblue;
+    grid-area: d;
+}
