@@ -1,0 +1,15 @@
+a{
+    background-color: #f7f32d;
+    border: 2px solid;
+    border-radius: 10%;
+    color: rgb(238, 28, 28);
+    font-size: 20px;
+    text-decoration: none;
+    padding:15px;
+    font-weight:bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    background-color: #7dfa83;
+}
